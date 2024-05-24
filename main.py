@@ -1,3 +1,6 @@
+# importa biblioteca
+import os
+
 tarefas = []
 
 while True:
@@ -10,6 +13,10 @@ while True:
     else:
         break
     
+os.system("cls")
+
+print(f'{'-'*35}LISTA DE TAREFAS DO DIA{'-'*35}')
+
 for tarefa in tarefas:
     print(tarefa)
 
